@@ -1,0 +1,43 @@
+novo arquivo versão 1
+
+configurar o git em edit options: inserir usuario e emails e salvar, sem isso não consegue enviar os arquivos para o git hub.
+
+ao tentar fazer o commit vai pedir pra confirmar a identidade.
+
+comandos git:
+
+clica com o botão direito dentro da pasta raiz onde vai clonar o git e acessa o git bash here. 
+isso inicia o terminal Terminal do git.
+comando:
+git clone + endereço do repositório = clona o repositorio
+
+ao terminar a clonagem vai criar a pasta como onome do projeto criado no git
+acessa a pasta clonada e clica novamente com o botão direto e acessa o git bash here novamente.
+
+comandos:
+git log = ver os logs dos envios
+git status = ver os arquivos adicionados na pasta para enviar para o repositorio
+git add . = adicioina todos os arquivos ao versionamento
+git commit = envia os arquivos paro o repositorio do git hub
+git push origin main =  empurra os arquivos para o git hub
+
+comandos:
+git status
+git add .
+git comit -m "meu primeiro arquivo enviado ao git hub"
+git push origin main
+
+editado ultimamente pelo repositorio do git hub.
+
+executar comando:
+git pull oringin main
+
+no git bash
+
+<<<<<<< HEAD
+editado off line pra testar o pull
+=======
+nao atualizou
+>>>>>>> 53fa08244a515d6def1fa33998d4ac3c4bb0d148
+
+editado online para testar

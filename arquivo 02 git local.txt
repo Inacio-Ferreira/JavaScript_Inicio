@@ -1,0 +1,54 @@
+criando um repositorio git local e migrando para o git hub:
+
+1- Criar uma pasta no local desejado e definir o nome da pasta
+2- Acessar a pasta e clicar com o botao direito dentro da pasta e acessar o git bash here, "terminal do git".
+3- Comandos para iniciar e criar o repositorio:
+
+observar que esta como "master" git local e nao como "main"git hub on-line
+
+git init = inicia o repositorio
+
+git satus = verifica o estatus do repositorio
+mostrtando em vermelho os arquivos alterados ou incluidos na pasta para enviar ao repositorio.
+
+adicionar o primeiro arquivo ao repositorio.
+
+git add . = adicina todos oas arquivos dispostos na pasta
+
+git status para verificar e ver que agora ficou verde e esta pronto para ser enviado ao repositorio.
+
+git commit -m "este -m serve para enviar uma mensagem informando as modificações" commit prepara o envio dos arquivos.
+
+git branch -M main = renomeia o branch para "main"
+
+fazzer a conexçao com o repositorio remoto.
+tem que criar o repositorio no git hub pra poder conectar com o git criado localmente.
+copia e cola o link do repositorio criado no git hu sem adicinar o readme inicialmente e cola no bash e dar um enter.
+
+git remote add origin "endereco do repositorio" mostra quando cria o repositorio sem adicinar o readme inicial.
+
+por fim envia o arquivo para o repositorio recem conectado
+
+git push origin main = envia os arquivos para o repositorio.
+
+agora é so atualizar a pagina do repositorio para ver os arquivos enviados.
+
+editando oline e atualizando localmente.
+
+ao clicar no botão de editar do repositorio remoto, apos finalizar a edição clicar em commit changes para enviar as informações ao repositorio.
+para atualizar no repositorio local
+executar comando:
+git pull oringin main
+no git bash
+
+editei oline e vivi viu.
+
+editei offline e vivi também viu.
+
+instalado no notebook em 18/04/2023.
+
+faltou a mensagem
+
+editei online pra teste
+
+"editei off line pra teste também e deu certo"
