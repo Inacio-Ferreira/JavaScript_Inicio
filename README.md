@@ -16,5 +16,8 @@ git remote add origin https://github.com/Inacio-Ferreira/JavaScript_Inicio.git /
 git push -u origin main // empurra o arquivo para o repositório ou envia o arquivo.
 
 npm init // cria um json para usar o import e export sem dar problemas
+incluir as informações "type": "module" no final do arquivo json
 
 add . // adicona todos os arquivos novos ou editados de uma ves para fazer o commit
+
+para visualizar no debug console aperta f5 e seleciona nodejs pra executar o codigo.
