@@ -1,4 +1,5 @@
 ﻿# JavaScript_Inicio
+
 "Editado off line"
 Códigos do primeiro projeto que subiremos pro nosso novo github
 
@@ -21,3 +22,8 @@ incluir as informações "type": "module" no final do arquivo json
 add . // adicona todos os arquivos novos ou editados de uma ves para fazer o commit
 
 para visualizar no debug console aperta f5 e seleciona nodejs pra executar o codigo.
+
+git pull // puxa os arquivos do servidor remoto para o servidor local.
+
+observação: ao alterar os arquivos online e tentar fazer um comite dos arquivos alterados localmente
+não será possivel enviar os arquivos até que voce tenha feito feito o git pull e baixar as alterações feitas oline antes.
